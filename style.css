@@ -158,4 +158,34 @@ h1 {
     color: #f08080;
     z-index: 0;
     position: relative;
+
+}
+
+body {
+    min-height: 100dvh; /* mobile safe */
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(24px, 6vw, 40px);
+}
+
+#message {
+    font-size: clamp(16px, 4.5vw, 24px);
+    text-align: center;
+}
+
+
+@media (max-width: 480px) {
+    body {
+        justify-content: flex-start;
+    }
 }
