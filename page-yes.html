@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte saint-valentin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif">
+    <h1>Yesssssssssssss, j'ai la plus belle des amoureuses !!!!!!!!!</h1>
+
+    <!-- Bouton cadeau -->
+    <button class="love-btn" onclick="openLetter()">🎁</button>
+
+    <!-- Modal Lettre -->
+    <div class="letter-overlay" id="letter">
+        <div class="letter">
+            <h2>💖 Ma Valentine 💖</h2>
+            <p>
+                <!-- ICI TU METS TA LETTRE -->
+                Mon amour,<br>
+                Ma princesse,<br><br>
+                Mahey, je comptais tout t’aborder, t’écrire quelque chose de poétique et bien formulé, mais je me suis dit que le plus adapté pour t’exprimer à quel point mes sentiments envers toi sont forts serait de te dévoiler ce que ressent mon cœur tel que les mots viennent.
+                <br><br>
+                Ça va faire maintenant bientôt 2 mois qu’on se connaît, tu es rentrée dans ma vie d’une telle manière que tu as totalement bouleversé ma vie. Tomber sous le charme de ton regard, dès la toute première fois que je t’ai vue, j’ai ressenti au fond de moi que j’étais obligé de t’envoyer ce premier message, depuis tu as pris une place énorme dans ma vie sans même t’en rendre compte, parler avec toi est devenu naturel, évident et surtout indispensable à mes journées.
+                <br><br>
+                Qui aurait imaginé qu’au tout début de cette année 2026 ma vie allait totalement changer ? Même avec la distance, tu arrives à être là pour moi comme personne ne l’a jamais été. Tu m’écoutes, me rassures, prends soin de moi et fais vibrer mon cœur comme personne auparavant. Avec toi tout est fluide, tout est simple et je me sens vraiment bien. Les sentiments que je ressens pour toi sont uniques, forts, et j’ai conscience que ce n’est pas quelque chose de passager.
+                <br><br>
+                J’ai un peu honte de l’avouer, mais tard la nuit quand je ne trouve pas le sommeil, je ne peux pas m’empêcher d’admirer tes photos et de constater à quel point la femme que j’aime est incroyable. Tu es la seule capable de changer mes cauchemars en rêves et de rendre chacun de mes rêves inoubliables.
+                <br><br>
+                Ma lettre ne sera peut-être pas parfaite, elle aura sûrement des fautes, des erreurs ou sera même parfois mal formulée à certains endroits, mais sache que les mots que tu es en train de lire actuellement sont la retranscription directe de mon cœur.
+                <br><br>
+                Je peux écrire autant de lignes que je veux, mais cela ne sera jamais suffisant pour te montrer à quel point je t’aime et à quel point je tiens à toi. J’ai hâte et j’attends avec impatience chacune des expériences que nous allons vivre ensemble, notre première rencontre, notre premier baiser ou encore le premier « je t’aime » que je pourrai directement entendre de ta part.
+                <br><br>
+                Sache que ces 2 mois passés à tes côtés ont suffi pour me permettre d’affirmer que tu es celle que j’aime le plus. Prends soin de toi ma princesse, je t’aime énormément et surtout ne change jamais !❤️
+                <br><br>
+                Melih
+            </p>
+            <button class="close-btn" onclick="closeLetter()">Fermer 💕</button>
+        </div>
+    </div>
+
+    <script>
+        function openLetter() {
+            document.getElementById("letter").classList.add("show");
+        }
+
+        function closeLetter() {
+            document.getElementById("letter").classList.remove("show");
+        }
+    </script>
+</body>
+
+</html>
